@@ -1,5 +1,5 @@
 # Audit-User-Script
-Reads Dynatrace Managed Audit User Logs for Analysis 
+Reads Dynatrace Managed Audit User Logs for Analysis. Requires Python3.
 
 #	Use 
 Place auditUsers.py in the same directory as the audit.user.0.0.log and run the script. It will create a results directory with the output files. 
