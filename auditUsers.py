@@ -1,12 +1,14 @@
-################################################################################
+##################################################################################################
 #
-#	Name	: auditUsers.py
-#	Date 	: 2018-10-15
-#	Version : 1.0 
+#	Name		: auditUsers.py
+#	Creation Date 	: 2018-10-15
+#	Version 	: 1.0 
+#	
+#	Requires Python3
 #
 #	Use : Place auditUsers.py in the same directory as the audit.user.0.0.log 
-#		  and run the script "py auditUsers.py". It will create a results 
-#		  directory with the output files. 
+#		 and run the script. It will create a results directory with the 
+#		 output files. 
 #
 #	Purpose : Read through the Dynatrace Managed audit.user.0.0.log file to find :
 #		1.) Total User Logins per Day - successList.csv & successGraph.csv
@@ -14,7 +16,7 @@
 #		3.) Failed User Logins by day - failureList.csv
 #		4.) List of Unique Users - summary.txt
 #
-#################################################################################
+####################################################################################################
 
 import os
 import sys
