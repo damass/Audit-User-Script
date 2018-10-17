@@ -2,7 +2,7 @@
 Reads Dynatrace Managed Audit User Logs for Analysis 
 
 #	Use 
-Place auditUsers.py in the same directory as the audit.user.0.0.log and run the script "py auditUsers.py". It will create a results directory with the output files. 
+Place auditUsers.py in the same directory as the audit.user.0.0.log and run the script. It will create a results directory with the output files. 
 
 # Output
 1. Total User Logins per Day - successList.csv & successGraph.csv
