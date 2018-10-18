@@ -14,3 +14,4 @@ Place auditUsers.py in the same directory as the audit.user.0.0.log and run the 
 - Number of Logins per User
 - Session Tracking
    - User Login @ HH:MM:ss & User Logout @ HH:MM:ss
+- User Emails, could be used to send alerts & information to all users that have logged in
